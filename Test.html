@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script src="jsAnim.js" type="text/javascript"></script>
+  <style>
+    #container {
+      width: 1239px;
+      height: 200px;
+      overflow: hidden;
+    }
+    #Tobeanim2 {
+      z-index: 2;
+      position: relative;
+      right: 3287px;
+    }
+    #Caseenclosure {
+      z-index: 3;
+      position: absolute;
+    }
+    #Casebacking {
+      z-index: 1;
+      position: absolute;
+    }
+    #gunname1 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname1 span {font-size: 13px;}
+    #gunname2 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname2 span {font-size: 13px;}
+    #gunname3 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname3 span {font-size: 13px;}
+    #gunname4 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname4 span {font-size: 13px;}
+    #gunname5 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname5 span {font-size: 13px;}
+    #gunname6 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname6 span {font-size: 13px;}
+    #gunname7 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname7 span {font-size: 13px;}
+    #gunname8 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname8 span {font-size: 13px;}
+    #gunname9 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname9 span {font-size: 13px;}
+    #gunname10 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname10 span {font-size: 13px;}
+    #gunname11 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname11 span {font-size: 13px;}
+    #gunname12 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname12 span {font-size: 13px;}
+    #gunname13 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname13 span {font-size: 13px;}
+    #gunname14 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname14 span {font-size: 13px;}
+    #gunname15 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname15 span {font-size: 13px;}
+    #gunname16 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname16 span {font-size: 13px;}
+    #gunname17 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname17 span {font-size: 13px;}
+    #gunname18 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname18 span {font-size: 13px;}
+    #gunname19 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname19 span {font-size: 13px;}
+    #gunname20 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname20 span {font-size: 13px;}
+    #gunname21 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname21 span {font-size: 13px;}
+    #gunname22 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname22 span {font-size: 13px;}
+    #gunname23 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname23 span {font-size: 13px;}
+    #gunname24 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname24 span {font-size: 13px;}
+    #gunname25 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+    #gunname25 span {font-size: 13px;}
+    #pos25 {padding-left:4392px; position: absolute;}
+    #pos24 {padding-left:4209px; position: absolute;}
+    #pos23 {padding-left:4026px; position: absolute;}
+    #pos22 {padding-left:3843px; position: absolute;}
+    #pos21 {padding-left:3660px; position: absolute;}
+    #pos20 {padding-left:3477px; position: absolute;}
+    #pos19 {padding-left:3294px; position: absolute;}
+    #pos18 {padding-left:3111px; position: absolute;}
+    #pos17 {padding-left:2928px; position: absolute;}
+    #pos16 {padding-left:2745px; position: absolute;}
+    #pos15 {padding-left:2562px; position:absolute;}
+    #pos14 {padding-left:2379px; position: absolute;}
+    #pos13 {padding-left:2196px; position: absolute;}
+    #pos12 {padding-left:2013px; position: absolute;}
+    #pos11 {padding-left:1830px; position: absolute;}
+    #pos10 {padding-left:1647px; position: absolute;}
+    #pos9 {padding-left:1464px; position: absolute;}
+    #pos8 {padding-left:1281px; position: absolute;}
+    #pos7 {padding-left:1098px; position: absolute;}
+    #pos6 {padding-left:915px; position: absolute;}
+    #pos5 {padding-left:732px; position: absolute;}
+    #pos4 {padding-left:549px; position: absolute;}
+    #pos3 {padding-left:366px; position: absolute;}
+    #pos2 {padding-left:183px; position: absolute;}
+    #pos1 {position: absolute;}
+    #gun1 {position: absolute; right: 20px; top: 15px;}
+    #gun2 {position: absolute; right: 20px; top: 15px;}
+    #gun3 {position: absolute; right: 20px; top: 15px;}
+    #gun4 {position: absolute; right: 20px; top: 15px;}
+    #gun5 {position: absolute; right: 20px; top: 15px;}
+    #gun6 {position: absolute; right: 20px; top: 15px;}
+    #gun7 {position: absolute; right: 20px; top: 15px;}
+    #gun8 {position: absolute; right: 20px; top: 15px;}
+    #gun9 {position: absolute; right: 20px; top: 15px;}
+    #gun10 {position: absolute; right: 20px; top: 15px;}
+    #gun11 {position: absolute; right: 20px; top: 15px;}
+    #gun12 {position: absolute; right: 20px; top: 15px;}
+    #gun13 {position: absolute; right: 20px; top: 15px;}
+    #gun14 {position: absolute; right: 20px; top: 15px;}
+    #gun15 {position: absolute; right: 20px; top: 15px;}
+    #gun16 {position: absolute; right: 20px; top: 15px;}
+    #gun17 {position: absolute; right: 20px; top: 15px;}
+    #gun18 {position: absolute; right: 20px; top: 15px;}
+    #gun19 {position: absolute; right: 20px; top: 15px;}
+    #gun20 {position: absolute; right: 20px; top: 15px;}
+    #gun21 {position: absolute; right: 20px; top: 15px;}
+    #gun22 {position: absolute; right: 20px; top: 15px;}
+    #gun23 {position: absolute; right: 20px; top: 15px;}
+    #gun24 {position: absolute; right: 20px; top: 15px;}
+    #gun25 {position: absolute; right: 20px; top: 15px;}
+  </style>
+  <div id="container">
+    <img src="CASEENCLOSURE.png" id="Caseenclosure">
+    <img src="caseenclosureback.png" id="Casebacking">
+    <div id=Tobeanim2>
+      <div id="Tobeanim">
+        <div id="pos1"> <img  id="frame1" src="framecovert.png"> <img  id="gun1" src="M4A1-SCyrex.png"> <p id="gunname1">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos2"> <img  id="frame2" src="framecovert.png"> <img  id="gun2" src="M4A1-SCyrex.png"> <p id="gunname2">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos3"> <img  id="frame3" src="framecovert.png"> <img  id="gun3" src="M4A1-SCyrex.png"> <p id="gunname3">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos4"> <img  id="frame4" src="framecovert.png"> <img  id="gun4" src="M4A1-SCyrex.png"> <p id="gunname4">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos5"> <img  id="frame5" src="framecovert.png"> <img  id="gun5" src="M4A1-SCyrex.png"> <p id="gunname5">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos6"> <img  id="frame6" src="framecovert.png"> <img  id="gun6" src="M4A1-SCyrex.png"> <p id="gunname6">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos7"> <img  id="frame7" src="framecovert.png"> <img  id="gun7" src="M4A1-SCyrex.png"> <p id="gunname7">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos8"> <img  id="frame8" src="framecovert.png"> <img  id="gun8" src="M4A1-SCyrex.png"> <p id="gunname8">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos9"> <img  id="frame9" src="framecovert.png"> <img  id="gun9" src="M4A1-SCyrex.png"> <p id="gunname9">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos10"> <img  id="frame10" src="framecovert.png"> <img  id="gun10" src="M4A1-SCyrex.png"> <p id="gunname10">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos11"> <img  id="frame11" src="framecovert.png"> <img  id="gun11" src="M4A1-SCyrex.png"> <p id="gunname11">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos12"> <img  id="frame12" src="framecovert.png"> <img  id="gun12" src="M4A1-SCyrex.png"> <p id="gunname12">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos13"> <img  id="frame13" src="framecovert.png"> <img  id="gun13" src="M4A1-SCyrex.png"> <p id="gunname13">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos14"> <img  id="frame14" src="framecovert.png"> <img  id="gun14" src="M4A1-SCyrex.png"> <p id="gunname14">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos15"> <img  id="frame15" src="framecovert.png"> <img  id="gun15" src="M4A1-SCyrex.png"> <p id="gunname15">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos16"> <img  id="frame16" src="framecovert.png"> <img  id="gun16" src="M4A1-SCyrex.png"> <p id="gunname16">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos17"> <img  id="frame17" src="framecovert.png"> <img  id="gun17" src="M4A1-SCyrex.png"> <p id="gunname17">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos18"> <img  id="frame18" src="framecovert.png"> <img  id="gun18" src="M4A1-SCyrex.png"> <p id="gunname18">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos19"> <img  id="frame19" src="framecovert.png"> <img  id="gun19" src="M4A1-SCyrex.png"> <p id="gunname19">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos20"> <img  id="frame20" src="framecovert.png"> <img  id="gun20" src="M4A1-SCyrex.png"> <p id="gunname20">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos21"> <img  id="frame21" src="framecovert.png"> <img  id="gun21" src="M4A1-SCyrex.png"> <p id="gunname21">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos22"> <img  id="frame22" src="framecovert.png"> <img  id="gun22" src="M4A1-SCyrex.png"> <p id="gunname22">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos23"> <img  id="frame23" src="framecovert.png"> <img  id="gun23" src="M4A1-SCyrex.png"> <p id="gunname23">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos24"> <img  id="frame24" src="framecovert.png"> <img  id="gun24" src="M4A1-SCyrex.png"> <p id="gunname24">M4A1-S<span><br>Cyrex</span></p></div>
+        <div id="pos25"> <img  id="frame25" src="framecovert.png"> <img  id="gun25" src="M4A1-SCyrex.png"> <p id="gunname25">M4A1-S<span><br>Cyrex</span></p></div>
+      </div>
+    </div>
+  </div>
+  <button id="button" onclick="spinner()">click</button>
+  <script type="text/javascript">
+    var audio = new Audio('opening-sound.mp3');
+    var manager = new jsAnimManager();
+    shroom = document.getElementById("Tobeanim");
+    shroom.style.position = "relative";
+    var anim = manager.createAnimObject("Tobeanim");
+    var spinner = function() {
+      console.log("GL");
+      audio.play();
+      randomize();
+      anim.add({property: Prop.left, to: 0, duration: 1,});
+      anim.add({property: Prop.left, to: 1000, duration: 1400,});
+      anim.add({property: Prop.left, to: 3000, duration: 5000, ease: jsAnimEase.parabolicNeg});
+    }
+    var randomize = function() {
+      var counter = 0;
+      for (var i=0; i < 25; i++) {
+        var counter = counter + 1
+        var frame= "frame" + counter
+        console.log(frame)
+        if (frame == "frame5") {
+          Get = Math.floor((Math.random() * 10000) + 1);
+          console.log(Get)
+          if (Get >= 1 && Get <= 8700) {
+            document.getElementById("frame5").src = "framerestricted.png"
+          }
+          else if (Get >= 8701 && Get <= 9600) {
+            document.getElementById("frame5").src = "frameclassified.png"
+          }
+          else if (Get >= 9601 && Get <= 9870) {
+            document.getElementById("frame5").src = "framecovert.png"
+          }
+          else if (Get >= 9871 && Get <= 9971) {
+            document.getElementById("frame5").src = "frameknife.png"
+          }
+          else{
+            document.getElementById("frame5").src = "framecontraband.png"
+          }
+        }
+        else {
+          var result = Math.floor((Math.random() * 1000) + 1);
+          if (result >= 0 && result <= 750) {
+          console.log(result)
+            document.getElementById(frame).src = "framerestricted.png"
+          }
+          else if (result >= 751 && result <= 900) {
+            document.getElementById(frame).src = "frameclassified.png"
+          }
+          else if (result >= 901 && result <= 982) {
+            document.getElementById(frame).src = "framecovert.png"
+          }
+          else if (result >= 983 && result <= 998) {
+            document.getElementById(frame).src = "frameknife.png"
+          }
+          else{
+            document.getElementById(frame).src = "framecontraband.png"
+          }
+        }
+      }
+    }
+    randomize();
+
+
+</script>
+</body>
+</html>
